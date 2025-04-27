@@ -17,6 +17,5 @@ Please cite this compendium as:
 }
 ```
 ![What is this](Incremental cooling.png)
-
-## To be updated
+> ⚠️ **Work in Progress:** The documentation is currently being updated. Some sections may be incomplete.
 
