@@ -16,6 +16,6 @@ Please cite this compendium as:
   note={In Revision}
 }
 ```
-![Incremental Cooling](Incremental_cooling.png)
+![Incremental Cooling](incremental_cooling.png)
 > ⚠️ **Work in Progress:** The documentation is currently being updated. Some sections may be incomplete.
 
