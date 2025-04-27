@@ -17,5 +17,7 @@ Please cite this compendium as:
 }
 ```
 
+![alt text](https://github.com/ideas-lab-nus/2024-bca-mmv/blob/Incremental cooling.png?raw=true)
+
 ## To be updated
 
