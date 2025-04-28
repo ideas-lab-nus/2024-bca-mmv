@@ -18,3 +18,35 @@ Please cite this compendium as:
 }
 ```
 ![Incremental Cooling](incremental_cooling.png)
+
+## Repository Structure
+
+```
+./
+├── requirement.txt                             # List of Python packages required to run the project
+├── Code                                        # Scripts for data analysis and visualization
+│   ├── comfort_data.ipynb                      # Jupyter Notebook for analyzing and visualizing subjective survey and environmental measurement data
+│   └── energy_data.ipynb                       # Jupyter Notebook for analyzing measured energy data, including energy savings M&V using Gaussian Process regression
+├── data                                        # Datasets collected from our 20-week longitudinal field study
+│   ├── comfort                                 # Datasets for occupant comfort analysis
+│   │   ├── backgroundContinousMonitoring.csv   # Continuous background environmental monitoring at the center of occupied spaces
+│   │   ├── filteredCompleteData.csv            # Subjective survey responses with concurrent in-situ IEQ (Indoor Environmental Quality) measurements
+│   │   └── genderAge.csv                       # Participants' demographic information (gender and age)
+│   └── energy                                  # Datasets for energy performance analysis
+│       ├── dailyEnergy.csv                     # Aggregated daily cooling energy and outdoor weather data for Gaussian Process modeling
+│       ├── energyMeter.csv                     # Historical metered cooling power by end use and corresponding outdoor weather conditions
+│       └── SingaporeAMY2023.epw                # Singapore Changi Airport 2023 Actual Meteorological Year (AMY) weather file in EPW format
+└── paper                                       # Materials for manuscript preparation
+    ├── figures                                 # Key figures used in the paper
+    ├── tex                                     # LaTeX source files for manuscript writing (to be updated)
+    └── bib                                     # Bibliographic database file (to be updated)
+
+```
+
+### Licenses
+
+**Text and figures :**  [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
+
+**Code :** See the [LICENSE](LICENSE) file
+
+**Data :** [CC-0](http://creativecommons.org/publicdomain/zero/1.0/) attribution requested in reuse
