@@ -5,15 +5,18 @@ The compendium includes all the data and code needed to reproduce the analysis a
 
 > Yue Lei, Sicheng Zhan and Adrian Chong, (2025).
 > *Sustainable Cooling in the Tropics with Mixed-Mode Ventilation and Thermal Adaptation*.
-> *Building and Environment*. <https://doi.org/xxx/xxx>
+> *Building and Environment*. <https://doi.org/10.1016/j.buildenv.2025.113339>
 
 Please cite this compendium as:
 ```
 @article{2025sustainable,
-  title={Sustainable Cooling in the Tropics with Mixed-Mode Ventilation and Thermal Adaptation},
+  title={Sustainable cooling in the tropics with mixed-mode ventilation and thermal adaptation},
   author={Lei, Yue and Zhan, Sicheng and Chong, Adrian},
+  journal={Building and Environment},
+  pages={113339},
   year={2025},
-  note={In Revision}
+  publisher={Elsevier},
+  doi={10.1016/j.buildenv.2025.113339}
 }
 ```
 ![Incremental Cooling](incremental_cooling.png)
